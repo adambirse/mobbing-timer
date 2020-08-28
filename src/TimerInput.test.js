@@ -1,9 +1,9 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import App from './App';
+import TimerInput from './TimerInput';
 
 test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/My Mobbing timer/i);
+  const { getByText } = render(<TimerInput />);
+  const linkElement = getByText(/Input your desired time/i);
   expect(linkElement).toBeInTheDocument();
 });
