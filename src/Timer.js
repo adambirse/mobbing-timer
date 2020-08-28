@@ -4,7 +4,7 @@ class Timer extends React.Component {
     render() {
         return (
             <div>
-                <h2>10 seconds left</h2>
+                <h2>{this.props.minutes}:{this.props.seconds}</h2>
             </div>
         );
     }
