@@ -5,7 +5,7 @@ class TimerInput extends React.Component {
         return (
             <div>
                 <h3>Input your desired time</h3>
-                <input type="number" minutes={this.props.minutes} onChange={this.props.handleChange} required />
+                <input type="number" onChange={this.props.handleChange} required />
             </div>
         );
     }

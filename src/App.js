@@ -60,7 +60,7 @@ class App extends React.Component {
                     <h1>
                         My Mobbing timer
                     </h1>
-                    <TimerInput minutes={this.state.minutes} handleChange={this.handleChange}/>
+                    <TimerInput handleChange={this.handleChange}/>
                     <Timer minutes={this.state.minutes} seconds={this.state.seconds}/>
                     <StartButton startCountDown={this.startCountDown}/>
                 </header>
